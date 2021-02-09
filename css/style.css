@@ -22,3 +22,17 @@ body {
      margin: 20px;
      font-size: large;
   }
+  ul li{
+    color: rgb(4, 40, 87);
+    font-size: large;
+    font-family:sans-serif;
+  }
+  ol {
+    margin: 20px;
+  }
+  
+   h3,ol li{
+    color: rgb(12, 38, 63);
+    font-size: large;
+    margin-left: 20px;
+  }
