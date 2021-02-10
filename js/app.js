@@ -108,13 +108,13 @@ for (let j = 0; j < 5; j++) {
   //console.log(5);
 }
 
-let k=0;
-document.write('<h3> My favorite movies types </h3>');
-while (k<myFilms.length) {
-  document.writeln('<li>'+ myFilms[k]+'</li>'+'<br>');
-  k++;
-}
+// let k=0;
+// document.write('<h3> My favorite movies types </h3>');
+// while (k<myFilms.length) {
+//   document.writeln('<li>'+ myFilms[k]+'</li>'+'<br>');
+//   k++;
+// }
 
+alert('My favorite movies type are '+myFilms);
 alert(userName+', I hope you have fun with guessing game.');
-
 alert(`your score is ${score} out of 7`);
