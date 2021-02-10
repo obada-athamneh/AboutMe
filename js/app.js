@@ -1,8 +1,11 @@
 'use strict';
+
 let userName=prompt('What is your name?');
 alert('Welcome '+userName);
 let score=0;
 let ansAge=prompt('Am I 30 years old?','yes or no');
+
+function Q1(ansAge){
 ansAge=ansAge.toLowerCase();
 if (ansAge ==='no' || ansAge ==='n') {
   //console.log('This is right');
@@ -14,8 +17,13 @@ if (ansAge ==='no' || ansAge ==='n') {
 } else{
   alert(`Hello ${userName}`);
 }
+}
+Q1(ansAge);
+
 
 let ansCity=prompt('Am I from Irbid?','yes or no');
+
+function Q2(ansCity){
 ansCity=ansCity.toLowerCase();
 if (ansCity ==='yes' || ansCity ==='y') {
   //console.log('This is right');
@@ -27,8 +35,13 @@ if (ansCity ==='yes' || ansCity ==='y') {
 } else{
   alert(`Hello ${userName}`);
 }
+}
+Q2(ansCity);
+
 
 let ansBcountry=prompt('Am I born in Jordan?','yes or no');
+
+function Q3(ansBcountry){
 ansBcountry=ansBcountry.toLowerCase();
 if(ansBcountry ==='no' || ansBcountry ==='n') {
   //console.log('This is right');
@@ -40,8 +53,13 @@ if(ansBcountry ==='no' || ansBcountry ==='n') {
 } else{
   alert(`Hello ${userName}`);
 }
+}
+Q3(ansBcountry);
+
 
 let ansColor=prompt('Is Blue my favorite color?');
+
+function Q4(ansColor){
 ansColor=ansColor.toUpperCase();
 if (ansColor ==='YES' || ansColor==='Y') {
   //console.log('This is right');
@@ -53,8 +71,13 @@ if (ansColor ==='YES' || ansColor==='Y') {
 } else{
   alert(`Hello ${userName}`);
 }
+}
+Q4(ansColor);
+
 
 let ansGrade=prompt('Did I graduate with weak grade from university?');
+
+function Q5(ansGrade){
 ansGrade=ansGrade.toLowerCase();
 if (ansGrade ==='no' || ansGrade ==='n') {
   //console.log('This is right');
@@ -66,9 +89,14 @@ if (ansGrade ==='no' || ansGrade ==='n') {
 } else{
   alert(`Hello ${userName}`);
 }
+}
+Q5(ansGrade);
+
 
 let myBirth=7;
 let ansBirth=prompt('What is my birthday month?','enter a number');
+
+function Q6(ansBirth){
 for (let i = 0; i < 3; i++) {
   if (myBirth===parseInt(ansBirth)) {
     //console.log('This is right');
@@ -86,10 +114,16 @@ for (let i = 0; i < 3; i++) {
     alert(`Incorrect, the right answer is ${myBirth}`);
   }
 }
+}
+Q6(ansBirth);
+
+
 let y=false;
 let myFilms=['animation','action','science fiction','comedy'];
 let ansFilms=prompt('What is my favorite movies type?');
 //console.log('start for');
+
+function Q7(ansFilms){
 for (let j = 0; j < 5; j++) {
   //console.log(j);
   for (let i = 0; i < myFilms.length; i++) {
@@ -107,6 +141,8 @@ for (let j = 0; j < 5; j++) {
   ansFilms=prompt('incorrect, try again');
   //console.log(5);
 }
+}
+Q7(ansFilms);
 
 // let k=0;
 // document.write('<h3> My favorite movies types </h3>');
